@@ -1,0 +1,12 @@
+// Variables
+
+$margin-auto:  0 auto;
+$nav-link: #FCE38A;
+
+// Mixins
+
+@mixin flexbox-space-around(){
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
